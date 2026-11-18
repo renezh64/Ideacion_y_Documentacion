@@ -1,0 +1,55 @@
+REPORTE FINAL – DATAFRAME ENRIQUECIDO | CASA VS APARTAMENTO COLOMBIA 2026
+============================================================
+Filas: 38
+Columnas: 12
+Duplicados: 0
+
+Columnas y tipos:
+- city: str
+- n_si: int64
+- n_no: int64
+- total_registros: int64
+- pct_oferta_casas: float64
+- pct_oferta_aptos: float64
+- tipo_mercado_dominante: str
+- casa_cop_m2: float64
+- apto_cop_m2: float64
+- brecha_absoluta_cop: float64
+- diferencia_pct: float64
+- categoria_brecha_precio: str
+
+Valores nulos por columna:
+- city: 0
+- n_si: 0
+- n_no: 0
+- total_registros: 0
+- pct_oferta_casas: 0
+- pct_oferta_aptos: 0
+- tipo_mercado_dominante: 0
+- casa_cop_m2: 0
+- apto_cop_m2: 0
+- brecha_absoluta_cop: 0
+- diferencia_pct: 0
+- categoria_brecha_precio: 0
+
+Estadísticas numéricas:
+           n_si      n_no  total_registros  pct_oferta_casas  pct_oferta_aptos  casa_cop_m2  apto_cop_m2  brecha_absoluta_cop  diferencia_pct
+count     38.00     38.00            38.00             38.00             38.00        38.00        38.00                38.00           38.00
+mean   1,748.89  3,166.61         4,915.50             41.06             58.94 4,438,290.15 5,487,542.31        -1,049,252.16          -17.43
+std    3,071.98  5,993.09         8,911.19             21.18             21.18 1,275,894.66 1,577,503.25         1,144,782.28           16.57
+min       46.00     90.00           210.00              9.96             10.22 2,453,416.15 3,393,617.02        -5,230,761.53          -59.98
+25%      260.75    376.75           796.00             22.37             39.04 3,470,125.44 4,270,897.12        -1,467,297.09          -26.87
+50%      626.50    869.00         1,633.50             37.45             62.55 4,125,274.12 5,397,046.98          -995,510.44          -18.09
+75%    2,005.50  2,964.25         5,043.75             60.96             77.63 5,314,970.60 6,309,303.78          -311,000.37           -7.46
+max   17,756.00 31,265.00        49,021.00             89.78             90.04 7,842,105.26 9,321,839.08           924,578.14           20.66
+
+Columnas categóricas:
+- city (38 valores distintos). Ejemplos: Santa Marta, Cartagena, Palmira, Bogotá, Puerto Colombia
+- tipo_mercado_dominante (2 valores distintos):
+    Predominio Apartamentos: 27
+    Predominio Casas: 11
+- categoria_brecha_precio (4 valores distintos):
+    Descuento Moderado (-15% a -30%): 17
+    Descuento Leve (0% a -15%): 10
+    Descuento Alto (<-30%): 6
+    Casa con Prima (+): 5
