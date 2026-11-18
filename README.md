@@ -17,27 +17,30 @@ Análisis de precios de oferta por metro cuadrado de **casas vs apartamentos** e
 - Exportar datos finales y generar reporte descriptivo `.txt` de forma automática
 
 ## navegacion en entre carpeas
-├── src/
-│   ├──actividad1/
-│   │  ├──Actividad1_vivienda_colombia.ipynb
-│   │  ├──Actividad3.ipynb
-│   │  ├──Infografia.ipynb
-│   │  ├──dashboard_inmobiliario_colombia_2026
-│   │  ├──datos/
-│   │  │  ├──vivienda_colombia.csv
-│   │  │  ├──vivienda_colombia_enriquecido.csv
-│   │  ├──reportes/
-│   │  │  ├──vivienda_colombia.txt
-│   │  │  ├──vivienda_colombia_enriquecido.txt
-│   ├──actividad3/
-│   │  ├──Actividad3.ipynb
-│   │  ├──Infografia.ipynb
-│   │  ├──dashboard_inmobiliario_colombia_2026
-│   │  ├──reportes/
-│   │  │  ├──vivienda_colombia.txt
-│   │  │  ├──vivienda_colombia_enriquecido.txt
-│   ├──clases_po/
-├── README.md
-├── READMEv2.md
-├── READMEv1.md
+├── src/<br>
+│   ├──actividad1/<br>
+│   │  ├──Actividad1_vivienda_colombia.ipynb<br>
+│   │  ├──Actividad3.ipynb<br>
+│   │  ├──Infografia.ipynb<br>
+│   │  ├──dashboard_inmobiliario_colombia_2026<br>
+│   │  ├──datos/<br>
+│   │  │  ├──vivienda_colombia.csv<br>
+│   │     └──vivienda_colombia_enriquecido.csv<br>
+│   │  ├──reportes/<br>
+│   │  │  ├──vivienda_colombia.txt<br>
+│   │     └──vivienda_colombia_enriquecido.txt<br>
+│   ├──actividad3/<br>
+│   │  ├──Actividad3.ipynb<br>
+│   │  ├──Infografia.ipynb<br>
+│   │  ├──dashboard_inmobiliario_colombia_2026<br>
+│   │  ├──reportes/<br>
+│   │  │  ├──vivienda_colombia.txt<br>
+│   │     └──vivienda_colombia_enriquecido.txt<br>
+│   └──clases_po/<br>
+│   │  ├──__init__.py<br>
+│   │  ├──hf_loader.py<br>
+│      └──reportes.py<br>
+├── README.md<br>
+├── READMEv2.md<br>
+└──READMEv1.md<br>
 
