@@ -22,7 +22,8 @@ Análisis de precios de oferta por metro cuadrado de **casas vs apartamentos** e
 │   │  ├──Actividad1_vivienda_colombia.ipynb<br>
 │   │  ├──Actividad3.ipynb<br>
 │   │  ├──Infografia.ipynb<br>
-│   │  ├──dashboard_inmobiliario_colombia_2026<br>
+│   │  ├──Infografiav2.ipynb<br>
+│   │  ├──Infografiav3.ipynb<br>
 │   │  ├──datos/<br>
 │   │  │  ├──vivienda_colombia.csv<br>
 │   │     └──vivienda_colombia_enriquecido.csv<br>
